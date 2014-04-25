@@ -1,0 +1,89 @@
+body {background:#fff;font-family: "Segoe UI";}
+@font-face
+{
+font-family: Palatino Linotype; src: url('../fonts/pala.ttf'), url('../fonts/pala.ttf'); /* IE9 */}
+small{font-size: 11pt;}
+#mais a{font-size: 15pt;text-decoration: none;}
+.title3{font-size: 0.23in;color:#2379BD;margin-top:4px;}
+
+#bgmenu{background:#1B9FC9;border-bottom:5px solid #2379BD;}
+
+#menu .navbar-inner{background:none;border:0px;font-size: 0.2in;margin-bottom:-20px;margin-left:180px;}
+#menu .navbar-inner li{margin:0 0 0 30px;}
+#menu .navbar .nav > li > a:hover{color:#ccccff;}
+
+#top{background: url('../img/bgtop.jpg') no-repeat;height:195px;width:100%;}
+#top .logo{background: url('../img/logo.png') no-repeat; width:500px;height:180px;display:table; float:left;text-indent: -999999px;margin: 30px 0 0 0;}
+#top #search{float:right;margin-top:-10px;}
+#top #search .pesquisa{color:#118EB6;font-size: 14pt;}
+#top #carrinho{width:250px; height:60px;background:url("../img/carrinho.jpg") no-repeat;margin:60px 0 0 180px;color: #118EB6;font-size:13pt;padding:12px 0 0 30px;}
+#top #carrinho .num{font-size:16pt;}
+#top #carrinho a:hover{text-decoration: none; color: #77f;}
+#top #saudacao{margin:20px 0 -30px 0;font-size: 10.5pt;}
+
+#conteudo{margin-bottom:15px;padding-top: 20px;}
+#conteudo #myCarousel .carousel-control{margin-top:7px;border:0px;background:none;font-size: 1.3in;color:#1B9FC9;}
+#conteudo .title{width:100%; font-size: 0.30in;text-align:left;padding: 8px 0 30px 0;color:#2379BD;}
+
+#conteudo #Empresa{margin:20px 0 10px 0;}
+#conteudo #Tempo{margin:20px 0 20px 0;text-align: center;}
+#conteudo #Servicos .servico{text-align: center;font-size: 0.18in}
+#conteudo #Servicos img{border:3px solid #E6E7E8;margin-bottom:7px;}
+#conteudo #Cliente{margin-bottom:20px;}
+#conteudo #Cliente .control-group a{font-size: 8pt; color:#727376;}
+#conteudo #Cliente a{color:#727376}
+#conteudo #Projetos{margin-bottom:25px;}
+#conteudo #Projetos .projeto{text-align: center;font-size: 0.18in}
+#conteudo #Projetos img{border:3px solid #E6E7E8;margin-bottom:7px;}
+#conteudo #FaleConosco{}
+#conteudo #Produtos{margin:30px 0 25px 0;text-align: center;font-size: 0.18in}
+#conteudo #Produtos .produto{text-align: center;font-size: 0.18in;}
+#conteudo #Produtos img{border:3px solid #E6E7E8;margin-bottom:7px;}
+
+
+
+#conteudo #PageContato #form{border-right:3px solid #118EB6;padding:25px;margin-left:-100px;}
+#conteudo #PageContato #dados{}
+#conteudo #PageContato #localiza{padding:15px;border-top:3px solid #118EB6;margin-right: 20px;}
+
+
+//Produtos
+#conteudo #categorias{}
+#conteudo #categorias ul{list-style: none;}
+#conteudo #categorias ul li{margin:5px 0 5px 0;margin-left:-10px;font-size: 13pt;}
+#conteudo #categorias ul li a{text-decoration:none;color:#777;}
+#conteudo #categorias ul li a:hover{color:#88f;}
+
+
+#conteudo #pageProdutos{margin-bottom: 10px;}
+#conteudo #pageProdutos table{margin-top:-15px;}
+#conteudo #pageProdutos .title{margin-left: -28px;padding-bottom: 0;}
+#conteudo #pageProdutos .produto{margin-bottom: 10px;height:260px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;max-width: 215px;}
+#conteudo #pageprodutos .img{}
+#conteudo #pageProdutos .desc{text-align: center;font-size: 0.15in;padding:0 3px 0 3px;}
+#conteudo #pageProdutos .produto a{position:relative;z-index:4;}
+
+#conteudo  #pageProdutos a{color:#444;}
+#conteudo  #pageProdutos a:hover{text-decoration:none;}
+
+#conteudo #pageProdutos .pagination{text-align: center;margin:50px 0 30px 0;}
+
+
+#conteudo #buscaproduto{margin:0 0 0 340px;}
+#conteudo .accordion-group{margin-bottom:5px;}
+#conteudo #pageServicos {min-height: 700px;}
+#conteudo #pageServicos .pagination{margin:0 0 0 100px;}
+#conteudo #pageServicos .accordion-inner {vertical-align: top;}
+#conteudo #pageServicos .accordion-inner img{margin:5px;}
+#conteudo #pageServicos .accordion-inner small{margin:10px 0 0 0;}
+#conteudo #pageProjetos{min-height: 700px;}
+
+#conteudo #Painel{}
+#conteudo #Painel .title2{font-size: 0.27in;color:#2379BD;margin-top:4px;}
+
+#bgbot{border-top:10px solid #2379BD;background:#118EB6;}
+#bot #servicos{text-align: center;color:#fff;font-size: 12pt;margin-left:-120px;}
+#bot #servicos .telefone{font-size: 20pt;}
+#bot .logovidracaria {background: url('../img/logobot.png') no-repeat; width:260px;height:133px;display:table; float:left; text-indent: -9999px;margin: 100px 0 0 0;}
+#bot .logokelder {background: url('../img/logokbot.png') no-repeat; width:150px;height:130px;display:table; float:right;text-indent: -9999px;margin-top:100px;}
+#bot .copyrigh{text-align: center;color:white;margin: 10px;}

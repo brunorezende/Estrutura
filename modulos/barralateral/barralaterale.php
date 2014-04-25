@@ -1,0 +1,1 @@
+/* Barra Lateral esquerda para inclusão em páginas de 2 ou 3 colunas */
